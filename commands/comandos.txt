@@ -1,0 +1,3 @@
+antlr -Dlanguage=Python3 MiniLang.g4
+python3 Driver.py program_test.txt
+python3 Driver.py program_test_error.txt
